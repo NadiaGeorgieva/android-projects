@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutTheLibrary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6B6D91"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingTop="30sp"
+            android:text="Library database"
+            android:textAlignment="viewStart"
+            android:textColor="#162142"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_open_the_system_to_add_a_book_with_sign"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_you_will_see_fields_fill_them"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_click_the_button_add"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/library" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

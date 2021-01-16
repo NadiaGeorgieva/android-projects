@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F1FA"
+    tools:context=".AddActivity">
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="536dp"
+        android:background="#F7F5F8"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp">
+
+        <EditText
+            android:id="@+id/title_input2"
+            android:layout_width="340dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/enter_title"
+            android:inputType="textPersonName"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <EditText
+            android:id="@+id/author_input2"
+            android:layout_width="344dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:ems="10"
+            android:hint="@string/enter_author"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="147dp" />
+
+        <EditText
+            android:id="@+id/pages_input2"
+            android:layout_width="342dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/enter_pages"
+            android:inputType="textPersonName"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="251dp" />
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="126dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/update"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FAF5F8F6"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/delete"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FDFCFC"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="371dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
